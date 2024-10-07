@@ -1,0 +1,46 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net5.0-windows</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Resources\icons8_goal.ico</ApplicationIcon>
+    <Win32Resource />
+    <Version>0.8.5</Version>
+    <Authors>Linc Ro &amp; 咔嚓</Authors>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="icons8_delete_104px.png" />
+    <None Remove="icons8_driver_104px.png" />
+    <None Remove="icons8_internet_100px.png" />
+    <None Remove="icons8_marker_80px.png" />
+    <None Remove="icons8_restart_52px.png" />
+    <None Remove="icons8_subtract_104px.png" />
+    <None Remove="icons8_synchronize_50px_1.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="HandyControl" Version="3.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="DBDesign.PosiStageDotNet">
+      <HintPath>..\PSN测试\PSN测试\bin\Release\net5.0-windows\DBDesign.PosiStageDotNet.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="icons8_delete_104px.png" />
+    <Resource Include="icons8_driver_104px.png" />
+    <Resource Include="icons8_internet_100px.png" />
+    <Resource Include="icons8_marker_80px.png" />
+    <Resource Include="icons8_subtract_104px.png" />
+    <Resource Include="icons8_synchronize_50px_1.png" />
+  </ItemGroup>
+
+</Project>

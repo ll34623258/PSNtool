@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PSNtool", "PSNtool.csproj", "{EF6755F6-C661-405F-BCC0-0297D98CE23C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{26C201B1-6320-4984-A499-0B5E529B9689}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EF6755F6-C661-405F-BCC0-0297D98CE23C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EF6755F6-C661-405F-BCC0-0297D98CE23C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EF6755F6-C661-405F-BCC0-0297D98CE23C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EF6755F6-C661-405F-BCC0-0297D98CE23C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {092A77B9-367F-4A4F-905F-1E8EE61A1233}
+	EndGlobalSection
+EndGlobal
